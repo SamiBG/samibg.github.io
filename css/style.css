@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+    background-image: url('/img/pattern.jpg');
+}
+
+h1 {
+    font-family: 'Muli', sans-serif;
+}
+
+#header h1 {
+    font-size: 350%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#header {
+    text-align: center;
+}
+
+.banner {
+    background-image: linear-gradient(306deg, #B2DEFE 10%, #FFBDDB 90%);
+    font-size: 150%;
+}
+
+.container-center {
+    width: 60%;
+    margin: auto;
+    background-color: #FFFFFF;
+    margin-top: 2%;
+    border: 7px ridge;
+}
+
+.border {
+    border: 1px solid;
+}
+
+
+#pin-board {
+    padding: 2%;
+}
+
+.post-it {
+    border: 1px solid;
+    box-shadow: 7px 7px;
+    margin: 2%;
+    padding: 0px 10px 10px 20px;
+    display: inline-table;
+}
+
+h1 img {
+    height: 30px;
+}
+
+/* post-its color/size config */
+
+.pink {
+    box-shadow: 9px 9px #F39;
+}
+
+.purple {
+    box-shadow: 9px 9px #C6F;
+}
+
+.blue {
+    box-shadow: 9px 9px #6197e7;
+}
+
+.small {
+    width: 19%;
+}
+
+.medium {
+    width: 65%;
+}
+
+.big {
+    width: 92%;
+}
+
+.full-height {
+    height: 100%;
+    vertical-align: top;
+}
+
+#footer img {
+    margin: 1%;
+}
+
+@media screen and (max-width: 1500px) {
+    #pin-board {
+        padding: 2%;
+        display: block;
+    }
+
+    .container-center {
+        width: 80%;
+    }
+
+    .small {
+        width: 19%;
+    }
+
+    .medium {
+        width: 65%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    #pin-board {
+        padding: 2%;
+        display: block;
+    }
+
+    .container-center {
+        width: 100%;
+    }
+
+    .small,
+    .medium {
+        width: 92%;
+    }
+
+}
