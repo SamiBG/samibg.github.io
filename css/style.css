@@ -35,6 +35,10 @@ h1 {
     border: 1px solid;
 }
 
+#nav-bar a {
+    font-size: 125%;
+    font-weight: bold;
+}
 
 #pin-board {
     padding: 2%;
@@ -114,12 +118,17 @@ h1 img {
     }
 
     .container-center {
-        width: 100%;
+        width: 98%;
     }
 
     .small,
-    .medium {
-        width: 92%;
+    .medium,
+    .big {
+        width: 90%;
+    }
+    
+    .star-banner {
+        width: 90%;
     }
 
 }
